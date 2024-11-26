@@ -1,24 +1,24 @@
-/* Reset de márgenes y paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Fondo claro */
-    color: #333; /* Texto gris oscuro */
+    background-color: #f4f4f4; 
+    color: #333; 
     padding: 0 20px;
 }
 
-/* Barra de navegación */
+
 header {
-    background-color: #333; /* Fondo oscuro */
-    color: #fff; /* Texto blanco */
-    padding: 15px 0; /* Espaciado interno */
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px 0; 
     text-align: center;
 }
 
@@ -38,20 +38,20 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: lightblue; /* Color de fondo al pasar el ratón */
+    background-color: lightblue; 
 }
 
-/* Contenedor principal */
+
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* Fondo blanco para el contenido */
+    background-color: #fff; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos de la sección de proyectos */
+
 .projectes {
     margin-bottom: 20px;
 }
@@ -88,7 +88,7 @@ header nav a:hover {
     color: #666;
 }
 
-/* Pie de página */
+
 footer {
     text-align: center;
     padding: 20px;
